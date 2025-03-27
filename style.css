@@ -1,0 +1,225 @@
+
+         *{
+            margin: 0;
+            padding: 0;
+           
+        }
+        body{
+            background-color: rgb(0,0,33);
+            color:white;
+            font-size: 30px;
+           
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(10, 10, 62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        nav ul li a:hover{
+            color: rgb(153, 153, 225);
+            font-size: 1.5rem;
+        }
+        button a{
+            text-decoration: none;
+            color: white;
+        }
+        main hr{
+            border:0;
+            background: #9c97f1;
+            height:1.2px;
+            margin: 60px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+           height: 50vh;
+            margin: 80px 0px;
+            
+        }
+        .firstSection >div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 3rem;
+            margin: 70px 0;
+        }
+        .leftSection .button{
+            padding: 50px 0px;
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background-color: rgb(45, 0, 128);
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .rightSection img{
+            height: 400px;
+            
+        }
+        .purple{
+            color: rgb(170, 101, 234);
+        }
+        .text-gray{
+               color:gray;
+        }
+        #element{
+            color: rgb(170, 101, 234);
+        }
+        h1{
+            font-family:'Times New Roman', Times, serif;
+            font-weight: 45px;
+        }
+        .container1{
+            display: flex;
+           justify-content: space-around;
+            height: 450px;
+        }
+        
+        #about .imgSection img{
+            height: 400px;
+           margin: 20px;
+        }
+
+        .textSection{
+            font-size: 1.5rem;
+            margin: 70px 0;
+            width: 35%;
+        }
+
+        .container2{
+            margin-left: 110px;
+            height: 450px;
+            padding: 20px;
+        }
+        .container2 ul{
+            margin-left: 8rem;
+            margin-top: 3rem;
+        }
+        .container2 ul li{
+            padding: 9px;
+            list-style: none;
+            
+            
+        }
+        .container2 ul li img{
+            height: 25px;
+            padding-right: 8px;
+            
+        }
+        
+        #skills{
+            display: flex;
+            gap: 20rem;
+        }
+        .skillImg{
+            padding: 38px;
+        }
+        #skills .skillImg img{
+            height: 450px;
+        }
+        .container3{
+            margin-left: 110px;
+            height: 1100px;
+            padding: 20px;
+           
+        }
+        .container3 img{
+            height: 370px;
+            width: 370px;
+            padding: 20px;
+        }
+        .boxes{
+            padding: 40px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .project{
+            background-color: white;
+            height: 480px;
+            
+            margin: 20px;
+            text-align: center;
+            justify-content: center;
+        }
+        .boxes h3{
+            color: black;
+            
+        }
+        .container4{
+            margin-left: 110px;
+            height: 1000px;
+            padding: 10px;
+            
+        }
+        .resumeImg{
+            text-align: center;
+            align-items: center;
+            margin: 30px;
+        }
+        .container5{
+            margin-left: 110px;
+            height: 450px;
+            padding: 10px;
+            
+        }
+        .form {
+            
+            padding: 30px;
+            margin: 10px;
+            justify-content: center;
+            text-align: center;
+           
+        }
+        table{
+            margin: auto;
+            padding: 10px;
+        }
+        input[type="submit"]{
+            display: block;
+            margin: 10px auto;
+            padding: 5px;
+
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .firstSection {
+                flex-direction: column;
+            }
+            .container1 {
+                flex-direction: column;
+            }
+            .container2 ul {
+                flex-direction: column;
+            }
+        }
+    
